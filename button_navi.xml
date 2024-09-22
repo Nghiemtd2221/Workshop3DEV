@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_user_home"
+        android:title="Trang chủ"/>
+    <item
+        android:id="@+id/menu_user_giohang"
+        android:title="Giỏ hàng"
+        android:icon="@drawable/donhang"/>
+    <item
+        android:id="@+id/menu_user_donhang"
+        android:title="Đơn hàng"
+        android:icon="@drawable/ql_sp"/>
+    <item
+        android:id="@+id/menu_user_thongtin"
+        android:title="Tài Khoản"
+        android:icon="@drawable/user"/>
+</menu>

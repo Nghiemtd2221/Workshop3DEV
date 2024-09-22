@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ql_sp"
+        android:title="Sản phẩm"/>
+    <item
+        android:id="@+id/menu_donhang"
+        android:icon="@drawable/donhang"
+        android:title="Đơn Hàng"/>
+    <item
+        android:id="@+id/menu_thongke"
+        android:icon="@drawable/thongke"
+        android:title="Thống Kê"/>
+    <group android:checkableBehavior="single">
+        <item android:title="ADMIN">
+            <menu>
+                <item
+                    android:id="@+id/menu_ql_sanpham"
+                    android:icon="@drawable/ql_sp"
+                    android:title="Quản lý sản phẩm"/>
+                <item
+                    android:id="@+id/menu_ql_nguoidung"
+                    android:icon="@drawable/users"
+                    android:title="Quản lý người dùng"/>
+                <item
+                    android:id="@+id/menu_ql_donhang"
+                    android:icon="@drawable/donhang"
+                    android:title="Quản lý đơn hàng"/>
+                <item
+                    android:id="@+id/menu_ql_binhluan"
+                    android:icon="@drawable/comment"
+                    android:title="Quản lý Bình luận"/>
+                <item
+                    android:id="@+id/menu_ql_doanhthu"
+                    android:icon="@drawable/thongke"
+                    android:title="Quản lý Doanh Thu"/>
+            </menu>
+
+        </item>
+    </group>
+
+
+
+
+<!--    <group android:checkableBehavior="single">-->
+<!--        <item android:title="Thống kê">-->
+<!--            <menu>-->
+<!--                <item-->
+<!--                    android:id="@+id/menu_tk_doanhthu"-->
+<!--                    android:icon="@drawable/doanhthu"-->
+<!--                    android:title="Thống kê doanh thu"/>-->
+<!--            </menu>-->
+<!--        </item>-->
+<!--    </group>-->
+
+    <group android:checkableBehavior="single">
+        <item android:title="Khác">
+            <menu>
+                <item
+                    android:id="@+id/menu_nd_themnd"
+                    android:icon="@drawable/phone"
+                    android:title="Liên Hệ"/>
+
+                <item
+                    android:id="@+id/menu_nd_exit"
+                    android:icon="@drawable/exit"
+                    android:title="Đăng xuất"/>
+            </menu>
+        </item>
+    </group>
+</menu>
